@@ -1,5 +1,4 @@
-# MiniWebPortfolio
-Mini Graphic Design Portfolio Website
+<!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
