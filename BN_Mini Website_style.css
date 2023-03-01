@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  background: #E26868;
+}
+img {
+	position: relative;
+}
+.img-gallery {
+	display: flex;
+	grid-gap: 13px;
+	justify-content: center;
+}
+.img-gallery img {
+	width: 100px;
+}
+.img-gallery img:hover{
+	width: auto;
+	height: 200px;
+}
+header {
+  position: relative;
+  padding: 25px;
+  left: 0;
+  height: 150px;
+  z-index: 1000;
+  background: #E26868;
+}
+h1, h2 {
+  font-size: 30px;
+  font-family: "Times New Roman", "serif";
+}
+h1{
+  margin: 10px 0 0 10px;	
+}
+h2 {
+  text-align: center;
+  border-bottom: 2px solid #000;
+  padding-bottom: 20px;
+}
+
+.intro {
+	min-width: 50px;
+}
+.site-nav {
+  position: relative;
+  float: right;
+  left: 0;
+  display: block;
+  width: 80%;
+  padding: .75em 1em 0 0;
+  background: none;
+  font-size: 15px;
+  font-family: Baskerville, "serif";
+}
+.site-nav ul {
+  list-style-type: none;
+  margin: 0 25px 25px 0;
+  text-align: right;
+}
+.site-nav ul li {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+.site-nav ul li a {
+  font-size: .85em;
+  padding-bottom: .5em;
+  text-decoration: none;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+.site-nav ul li a:hover {
+  outline: none;
+  border-bottom: 1px solid #fff;
+}
+.hero, .hero-content {
+  position: relative;
+}
+.hero {
+  background: #A705BB;
+  text-align: center;
+  padding: 20px;
+  height: 33vw;
+}
+.hero-content {
+  font-family: 'acumin-pro-extra-condensed', sans-serif;
+  color: #fff;
+  bottom: 0;
+  padding: 50px;
+  background: #2CD3DC;
+  height: 11vw;
+}
+.row {
+  width: auto;
+  margin: 0;
+}
+.column {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.column ul {
+  list-style-type: none;
+  margin: 0 25px 25px 0;
+  text-align: center;
+}
+.column ul a {
+  font-size: .85em;
+  padding-bottom: .5em;
+  text-decoration: none;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+.column ul a:hover {
+  outline: none;
+  border-bottom: 1px solid #fff;
+}
+footer {
+  height: 75px;
+	position: absolute;
+}
