@@ -13,7 +13,7 @@
 			<h1>Briana Hoangan Nguyen</h1>
 			<nav id="content" class="site-nav">
 				<ul>
-					<li><a href="BN_Mini Website.html">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="BN_Mini Website_Education.html">Education</a></li>
 					<li><a href="BN_Mini Website_My Projects.html">My Projects</a></li>
 					<li><a href="BN_Mini Website_Skills.html">Skills</a></li>
